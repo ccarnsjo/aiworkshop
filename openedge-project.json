@@ -18,11 +18,11 @@
     },
     {
       "type": "propath",
-      "path": "${DLC}\\/bin"
+      "path": "${DLC}\/bin"
     },
     {
       "type": "propath",
-      "path": "${DLC}\\/gui"
+      "path": "${DLC}\/gui"
     }
   ],
   "dbConnections": [{
