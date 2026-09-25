@@ -1,0 +1,11 @@
+Sports2000 schema overview (based on dump/sports2000.df)
+
+The schema defines sequences and tables for the Sports2000 sample database. The first 500 lines include sequence definitions and the beginning of the table/field definitions.
+
+Visible tables in the excerpt:
+- Benefits: employee benefit information, keyed by EmpNum.
+- BillTo: billing addresses keyed by CustNum and BillToID.
+- Bin: warehouse/item bin inventory, with BinNum as its primary key and additional indexes for ItemNum and WarehouseNum/ItemNum.
+- Customer: customer identity and address fields, including CustNum, Name, Address, City, State, Country, Phone, Contact, SalesRep, Comments, CreditLimit, Balance, Terms, Discount, PostalCode, and Fax.
+
+The excerpt also defines sequences such as NextCustNum, NextInvNum, NextOrdNum, NextItemNum, NextRefNum, and NextVisitor. Use the complete `dump/sports2000.df` from the source project as the authoritative schema when building the database.
